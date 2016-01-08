@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<config>
+	<modules> 
+		<DigitalPianism_CustomReports> 
+			<version>0.1.6</version>
+		</DigitalPianism_CustomReports> 
+	</modules>
+	
+	<frontend>
+		<!-- Translation file -->
+		<translate>
+            <modules>
+                <DigitalPianism_CustomReports>
+                    <files>
+                        <default>DigitalPianism_CustomReports.csv</default>
+                    </files>
+                </DigitalPianism_CustomReports>
+            </modules>
+        </translate>
+	</frontend>
+	
+	<adminhtml>
+		<!-- Backend translation file -->
+        <translate>
+            <modules>
+                <DigitalPianism_CustomReports>
+                    <files>
+                        <default>DigitalPianism_CustomReports.csv</default>
+                    </files>
+                </DigitalPianism_CustomReports>
+            </modules>
+        </translate>
+    </adminhtml>
+	
+	<global>
+		<models>
+			<reports_resource>
+				<rewrite>
+					<!-- Mage_Reports_Model_Resource_Product_Collection -->
+					<product_collection>DigitalPianism_CustomReports_Model_Reports_Resource_Product_Collection</product_collection>
+				</rewrite>
+			</reports_resource>
+		</models>
+		
+		<blocks>
+			<customreports>
+				<class>DigitalPianism_CustomReports_Block</class>
+			</customreports>
+		</blocks>
+	</global>
+	
+	<admin>
+    	<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<DigitalPianism_CustomReports before="Mage_Adminhtml">DigitalPianism_CustomReports_Adminhtml</DigitalPianism_CustomReports>
+					</modules>
+				</args>
+			</adminhtml>
+        </routers>
+    </admin>
+</config>

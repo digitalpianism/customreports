@@ -1,0 +1,13 @@
+<div class="content-header">
+    <table cellspacing="0">
+        <tr>
+            <td><h3 class="icon-head head-online-visitors"><?php echo $this->getTitle(); ?></h3></td>
+        </tr>
+    </table>
+</div>
+<?php if ($nb = $this->getSideNote()): ?>
+<div class="nb">
+	<p><?php echo $nb; ?></p>
+</div>
+<?php endif; ?>
+<?php echo $this->getChildHtml('grid') ?>

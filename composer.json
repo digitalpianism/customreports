@@ -1,0 +1,16 @@
+{
+  "name": "digitalpianism/customreports",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Adds several custom reports to Magento",
+  "require": {
+    "php": ">=5.3",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"Raphael Petrini",
+      "email":"contact@digital-pianism.com"
+    }
+  ]
+}

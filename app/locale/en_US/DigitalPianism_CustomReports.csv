@@ -1,0 +1,32 @@
+Bestsellers,Bestsellers
+Worstsellers,Worstsellers
+No Upsells,No Upsells
+Lifetime Sales,Lifetime Sales
+Shopped Once And Never Again,Shopped Once And Never Again
+Signed Up And Never Order,Signed Up And Never Order
+Wishlist,Wishlist
+Category Name,Category Name
+Ordered Quantity,Ordered Quantity
+Ordered Total,Ordered Total
+Sale Date,Sale Date
+Subscription Date,Subscription Date
+Has Been Shared ?,Has Been Shared ?
+Ordered Quantity,Ordered Quantity
+Views,Views
+Custom Bestsellers By Category Report,Custom Bestsellers By Category Report
+Custom Lifetimesales Report,Custom Lifetimesales Report
+Custom No Upsells Report,Custom No Upsells Report
+Custom Shopped Once And Never Again Report,Custom Shopped Once And Never Again Report
+Custom Signed Up But Never Shopped Report,Custom Signed Up But Never Shopped Report
+Custom Wishlist Report,Custom Wishlist Report
+Custom Worstsellers By Category Report,Custom Worstsellers By Category Report
+Custom Worstsellers Report,Custom Worstsellers Report
+The default date range is set to 30 days.,The default date range is set to 30 days.
+Attention: please note that these data may not be totally accurate due to the following reasons:,Attention: please note that these data may not be totally accurate due to the following reasons:
+- A product can be moved to a different category after an order has been placed.,- A product can be moved to a different category after an order has been placed.
+- A category can be deleted,- A category can be deleted
+- A product can be in more than one category,- A product can be in more than one category
+"For these reasons, if a product is in several categories, it will be counted as a sale for all of these categories.","For these reasons, if a product is in several categories, it will be counted as a sale for all of these categories."
+Set Dates,Set Dates
+Custom Products With No Upsells Report,Custom Products With No Upsells Report
+"N.B.: the grid displays only configurable products. You can use the visibility and status filter to only get the products which are available on the store.","N.B.: the grid displays only configurable products. You can use the visibility and status filter to only get the products which are available on the store."
