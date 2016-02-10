@@ -1,4 +1,5 @@
-app/code/community/DigitalPianism/CustomReports              app/code/community/DigitalPianism/CustomReports             
-app/design/adminhtml/default/default/template/digitalpianism app/design/adminhtml/default/default/template/digitalpianism
-app/etc/modules/DigitalPianism_CustomReports.xml             app/etc/modules/DigitalPianism_CustomReports.xml            
-app/locale/en_US/DigitalPianism_CustomReports.csv            app/locale/en_US/DigitalPianism_CustomReports.csv           
+# DigitalPianism_CustomReports
+app/code/community/DigitalPianism/CustomReports                             app/code/community/DigitalPianism/CustomReports
+app/design/adminhtml/default/default/template/digitalpianism/customreports  app/design/adminhtml/default/default/template/digitalpianism/customreports
+app/etc/modules/DigitalPianism_CustomReports.xml                            app/etc/modules/DigitalPianism_CustomReports.xml
+app/locale/en_US/DigitalPianism_CustomReports.csv                           app/locale/en_US/DigitalPianism_CustomReports.csv
