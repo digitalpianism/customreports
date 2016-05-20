@@ -2,7 +2,7 @@
 <config>
 	<modules> 
 		<DigitalPianism_CustomReports> 
-			<version>0.1.6</version>
+			<version>0.2.0</version>
 		</DigitalPianism_CustomReports> 
 	</modules>
 	
@@ -47,6 +47,12 @@
 				<class>DigitalPianism_CustomReports_Block</class>
 			</customreports>
 		</blocks>
+
+		<helpers>
+			<customreports>
+				<class>DigitalPianism_CustomReports_Helper</class>
+			</customreports>
+		</helpers>
 	</global>
 	
 	<admin>

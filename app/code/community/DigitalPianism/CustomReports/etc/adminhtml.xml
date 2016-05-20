@@ -1,55 +1,59 @@
 <?xml version="1.0" ?>
 <config>
     <menu>
-		<report translate="title" module="reports">
+		<report translate="title" module="customreports">
 			<title>Reports</title>
 			<sort_order>80</sort_order>
 			<children>
-				<categories translate="titl" module="reports">
+				<categories translate="title" module="customreports">
 					<title>Categories</title>
 					<sort_order>25</sort_order>
 					<children>
-						<bestsellersbycategory translate="title" module="reports">
+						<bestsellersbycategory translate="title" module="customreports">
 							<title>Bestsellers</title>
 							<action>adminhtml/bestsellersbycategory</action>
 						</bestsellersbycategory>
-						<worstsellersbycategory translate="title" module="reports">
+						<worstsellersbycategory translate="title" module="customreports">
 							<title>Worstsellers</title>
 							<action>adminhtml/worstsellersbycategory</action>
 						</worstsellersbycategory>
 					</children>
 				</categories>
-				<products translate="title" module="reports">
+				<products translate="title" module="customreports">
 					<title>Products</title>
 					<children>
-						<noupsells translate="title" module="reports">
+						<noupsells translate="title" module="customreports">
 							<title>No Upsells</title>
 							<action>adminhtml/noupsells</action>
 						</noupsells>
-						<worstsellers translate="title" module="reports">
+						<worstsellers translate="title" module="customreports">
 							<title>Worstsellers</title>
 							<action>adminhtml/worstsellers</action>
 						</worstsellers>
+						<customergroups translate="title" module="customreports">
+							<title>Products Ordered by Customer Groups</title>
+							<action>adminhtml/orderedbycustomergroups</action>
+						</customergroups>
 					</children>
 				</products>
-				<customers translate="title" module="reports">
+				<customers translate="title" module="customreports">
 					<title>Customers</title>
 					<children>
-						<lifetimesales translate="title" module="reports">
+						<lifetimesales translate="title" module="customreports">
 							<title>Lifetime Sales</title>
 							<action>adminhtml/lifetimesales</action>
 						</lifetimesales>
-						<shoppedonce translate="title" module="reports">
+						<shoppedonce translate="title" module="customreports">
 							<title>Shopped Once And Never Again</title>
 							<action>adminhtml/shoppedonce</action>
 						</shoppedonce>
-						<signedupnoorder translate="title" module="reports">
+						<signedupnoorder translate="title" module="customreports">
 							<title>Signed Up And Never Order</title>
 							<action>adminhtml/signedupnoorder</action>
 						</signedupnoorder>
 					</children>
 				</customers>
-				<wishlist translate="title" module="reports">
+				<wishlist translate="title" module="customreports">
 					<title>Wishlist</title>
 					<action>adminhtml/wishlist</action>
 				</wishlist>
@@ -63,46 +67,49 @@
 			</all>
 			<admin>
 				<children>
-					<report translate="title" module="reports">
+					<report translate="title" module="customreports">
 						<title>Reports</title>
 						<children>
-							<categories translate="titl" module="reports">
+							<categories translate="title" module="customreports">
 								<title>Categories</title>
 								<children>
-									<bestsellersbycategory translate="title" module="reports">
+									<bestsellersbycategory translate="title" module="customreports">
 										<title>Bestsellers</title>
 									</bestsellersbycategory>
-									<worstsellersbycategory translate="title" module="reports">
+									<worstsellersbycategory translate="title" module="customreports">
 										<title>Worstsellers</title>
 									</worstsellersbycategory>
 								</children>
 							</categories>
-							<products translate="title" module="reports">
+							<products translate="title" module="customreports">
 								<title>Products</title>
 								<children>
-									<noupsells translate="title" module="reports">
+									<noupsells translate="title" module="customreports">
 										<title>No Upsells</title>
 									</noupsells>
-									<worstsellers translate="title" module="reports">
+									<worstsellers translate="title" module="customreports">
 										<title>Worst Sellers</title>
 									</worstsellers>
+									<customergroups translate="title" module="customreports">
+										<title>Products Ordered by Customer Groups</title>
+									</customergroups>
 								</children>
 							</products>
-							<customers translate="title" module="reports">
+							<customers translate="title" module="customreports">
 								<title>Customers</title>
 								<children>
-									<lifetimesales translate="title" module="reports">
+									<lifetimesales translate="title" module="customreports">
 										<title>Lifetime Sales</title>
 									</lifetimesales>
-									<shoppedonce translate="title" module="reports">
+									<shoppedonce translate="title" module="customreports">
 										<title>Shopped Once And Never Again</title>
 									</shoppedonce>
-									<signedupnoorder translate="title" module="reports">
+									<signedupnoorder translate="title" module="customreports">
 										<title>Signed Up And Never Order</title>
 									</signedupnoorder>
 								</children>
 							</customers>
-							<wishlist translate="title" module="reports">
+							<wishlist translate="title" module="customreports">
 								<title>Wishlist</title>
 							</wishlist>
 						</children>
